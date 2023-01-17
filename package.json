@@ -9,7 +9,7 @@
     "dev": "nodemon index.js"
   },
   "engines": {
-    "node": "12.22.9"
+    "node": "12.x"
   },
   "author": "suditya",
   "license": "ISC",
