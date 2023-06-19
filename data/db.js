@@ -10,6 +10,11 @@ const connectionStr = NODE_ENV === 'development' ? `mongodb://${DB_HOST}/${DB_NA
 
 
 
+if(NODE_ENV != 'development')
+  {
+    connectionStr = 'mongodb+srv://memorycardgame:suditya@cluster0.bievirz.mongodb.net/?retryWrites=true&w=majority'
+  }
+
 
 
 // const connectionStr = NODE_ENV === 'development' ? `mongodb://${DB_HOST}/${DB_NAME}` :  `mongodb+srv://${DB_USER}:${DB_PASSWORD}${DB_HOST}/?retryWrites=true&w=majority`
